@@ -1,0 +1,657 @@
+@media only screen and (max-width:1180px) {
+    .container {
+        max-width: 1024px;
+    }
+
+    .second .scnd-general .text h1 {
+        width: 100%;
+        font-size: 42px;
+    }
+
+    .second .scnd-general .text p {
+        width: 100%;
+        font-size: 14px;
+    }
+
+    .fifth .fifth-name {
+        flex-wrap: wrap;
+
+
+    }
+
+    .fifth .fifth-name .fifth-cards {
+        margin-top: 70px;
+    }
+
+    .seven .seven-general {
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .eight .eight-general {
+        flex-wrap: wrap;
+        justify-content: center;
+    }
+}
+
+@media only screen and (max-width:992px) {
+    .container {
+        max-width: 960px;
+    }
+
+    .header nav img {
+        order: 3;
+    }
+
+    header nav ul {
+        display: none;
+        flex-wrap: wrap;
+    }
+
+    header nav .icon {
+        display: block;
+        order: -1;
+
+    }
+
+    header nav button {
+        order: 1;
+    }
+
+    .first-body h1 {
+        max-width: 100%;
+        font-size: 50px;
+    }
+
+    .first-body p {
+        max-width: 100%;
+        font-size: 14px;
+    }
+
+    .second .scnd-general {
+        display: block;
+        padding-top: 30px;
+    }
+
+    .second .scnd-general .text {
+        margin-left: 0;
+        margin-top: 100px;
+
+    }
+
+    .second .scnd-general .text h1 {
+        width: 100%;
+    }
+
+    .second .scnd-general .text p {
+        width: 100%;
+    }
+
+    .third .third-general {
+        display: block;
+        padding-top: 50px;
+    }
+
+    .third .third-general .third-text {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .third .third-general .third-text h1 {
+        font-size: 40px;
+        text-align: center;
+    }
+
+    .third .third-general .third-wire {
+        display: flex;
+        justify-content: center;
+        text-align: center;
+        margin: 80px 40px;
+    }
+
+    .fifth .fifth-name {
+        justify-content: center;
+        align-items: center;
+    }
+
+    .six .accordion {
+        width: 100%;
+    }
+
+    footer nav {
+        justify-content: center;
+
+    }
+
+    footer nav .dropdown {
+        display: block;
+        margin-left: 40px;
+    }
+
+    footer nav ul {
+        display: none;
+    }
+}
+
+@media only screen and (max-width:768px) {
+    .container {
+        max-width: 720px;
+    }
+
+    header nav button {
+
+        width: 80px;
+        height: 30px;
+        font-size: 12px;
+        line-height: 12px;
+    }
+
+    header nav img {
+        width: 150px;
+        height: 40px;
+    }
+
+    .first-body hr {
+        width: 300px;
+    }
+
+    .second .scnd-general img:last-child {
+
+        top: 40%;
+        left: 30%;
+    }
+
+    .fourth .fourth-head nav {
+        display: none;
+    }
+
+    .fourth .fourth-head i {
+        display: block;
+        margin: 20px 0;
+        text-align: center;
+    }
+
+    .fifth nav {
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        padding-top: 45px;
+        margin-bottom: 30px;
+    }
+
+    .fifth h1 {
+        width: 100%;
+        font-size: 32px;
+        text-align: center;
+    }
+
+    .fifth .fifth-name {
+        margin-top: 30px;
+    }
+
+    .six .six-head h1 {
+        width: 100%;
+        font-size: 40px;
+    }
+
+   
+
+    .seven .seven-text .svn-txt-head {
+        justify-content: center;
+        padding-top: 50px;
+    }
+
+    .seven .seven-text h1 {
+        width: 100%;
+        font-size: 36px;
+        text-align: center;
+    }
+
+    .seven .seven-text p {
+        width: 100%;
+        text-align: center;
+    }
+
+    .seven .seven-general .seven-image img {
+        width: 500px;
+        height: 700px;
+    }
+
+    .seven .seven-text .svn-txt-inputs {
+        padding: 0;
+        text-align: center;
+    }
+
+    .seven .seven-text .svn-txt-inputs input:nth-child(1),
+    .seven .seven-text .svn-txt-inputs input:nth-child(2) {
+
+        width: 450px;
+        margin: 23px auto;
+    }
+
+    .seven .seven-text .svn-txt-inputs input:nth-child(3) {
+        width: 450px;
+        margin: auto;
+    }
+
+    .seven .seven-text .svn-txt-inputs button {
+        margin: 20px 0;
+        text-align: center;
+    }
+
+    .eight .eight-general {
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        padding: 50px 0;
+        text-align: center;
+
+    }
+
+    .eight .eight-general .icons {
+        padding: 0;
+        margin-bottom: 40px;
+        justify-content: center;
+    }
+
+    .eight .eight-general .services {
+        display: none;
+    }
+
+    .eight .eight-general .resources {
+        display: none;
+    }
+
+    .eight .eight-general .contact {
+        display: none;
+    }
+
+    .eight .eight-general .dropdown {
+        display: inline;
+        margin-bottom: 20px;
+
+    }
+
+    footer nav {
+        flex-direction: column;
+
+    }
+
+    footer nav p {
+        font-size: 14px;
+        text-align: center;
+    }
+
+    .eight .eight-general .dropdown a {
+        color: black;
+    }
+}
+
+@media (max-width: 576px) {
+    .second .scnd-general .text h1 {
+        font-size: 24px;
+        line-height: 70%;
+    }
+
+    .second .scnd-general .text p {
+        font-size: 14px;
+        line-height: 100%;
+    }
+
+    .third .third-general .third-text p {
+        width: 100%;
+        font-size: 14px;
+        margin-bottom: 30px;
+    }
+
+    .third .third-general .third-text h1 {
+        width: 100%;
+        font-size: 30px;
+    }
+
+    .fourth .fourth-head .portfol hr {
+        width: 140px;
+        height: 0px;
+        border: 2px solid #d3d3d3;
+        border-radius: 2px;
+    }
+
+    .fourth .fourth-head h1 {
+        width: 100%;
+        font-size: 36px;
+
+    }
+
+    .six .six-head h1 {
+        font-size: 32px;
+    }
+
+   
+    
+
+    .seven .seven-general .seven-image img {
+        width: 450px;
+        height: 650px;
+    }
+
+
+}
+
+@media (max-width: 450px) {
+    .first .first-btns button:nth-child(1) {
+        width: 160px;
+      
+    }
+
+    .first .first-btns button:nth-child(2) {
+        width: 160px;
+       
+    }
+    .second .scnd-general .text h1 {
+        font-size: 18px;
+        line-height: 150%;
+    }
+    .second .images {
+        width: 100%;
+        margin: auto;
+    }
+    .second .scnd-general img:first-child {
+        width: 270px;
+        height: 310px;
+
+    }
+
+    .second .scnd-general img:last-child {
+        width: 230px;
+        height: 270px;
+
+    }
+
+    .second .scnd-general .text {
+        margin-top: 50px;
+
+    }
+    .third .third-general .third-cards {
+        width: 230px;
+    }
+    .third .third-general .third-cards .wire-body p {
+        width: 100%;
+    }
+    .fourth .fourth-head .portfol hr {
+        width: 100px;
+        height: 0px;
+        border: 2px solid #d3d3d3;
+        border-radius: 2px;
+    }
+    .fourth .fourth-head .fourth-images img:nth-child(1),
+    .fourth .fourth-head .fourth-images img:nth-child(3) {
+        width: 350px;
+        height: 370px;
+    }
+
+    .fourth .fourth-head .fourth-images img:nth-child(2) {
+        width: 350px;
+        height: 460px;
+    }
+    .fifth .fifth-name .fifth-cards {
+        width: 100%;
+    }
+    .six .six-head .head-faq hr {
+        width: 125px;
+    }
+    .six .six-head h1 {
+        font-size: 28px;
+    }
+
+
+
+    .seven .seven-general .seven-image img {
+        width: 350px;
+        height: 500px;
+    }
+
+    .seven .seven-text .svn-txt-inputs input:nth-child(1),
+    .seven .seven-text .svn-txt-inputs input:nth-child(2) {
+        width: 350px;
+    }
+
+    .seven .seven-text .svn-txt-inputs input:nth-child(3) {
+        width: 350px;
+    }
+
+}
+
+@media only screen and (max-width:375px) {
+    .container {
+        max-width: 335px;
+
+    }
+
+    header nav button {
+
+        width: 40px;
+        height: 15px;
+        font-size: 7px;
+        line-height: 6px;
+    }
+
+    header nav img {
+        width: 90px;
+        height: 40px;
+    }
+
+    header nav .icon {
+        font-size: 18px;
+    }
+
+    .first-body hr {
+        width: 100px;
+    }
+
+    .first-body h1 {
+        max-width: 100%;
+        font-size: 20px;
+    }
+
+    .first .first-btns button:nth-child(1) {
+        width: 90px;
+        height: 24px;
+        font-size: 10px;
+        line-height: 12px;
+    }
+
+    .first .first-btns button:nth-child(2) {
+        width: 90px;
+        height: 24px;
+        font-size: 10px;
+        line-height: 12px;
+    }
+
+   
+
+    .second .scnd-general img:first-child {
+        width: 200px;
+        height: 220px;
+    }
+
+    .second .scnd-general img:last-child {
+        width: 170px;
+        height: 190px;
+        top: 30%;
+        left: 9%;
+    }
+
+    .second .scnd-general .text {
+        margin-top: 30px;
+
+    }
+
+    .third .third-general {
+        padding-top: 30px;
+    }
+
+    .third .third-general .third-text hr {
+        width: 80px;
+        height: 0px;
+        border: 2px solid #D8D8D8;
+        margin-right: 8px;
+    }
+
+    .third .third-general .third-text h4 {
+        font-size: 12px;
+    }
+
+    .third .third-general .third-text h1 {
+        font-size: 20px;
+    }
+
+    .third .third-general .third-text p {
+        font-size: 12px;
+        margin-bottom: 20px;
+    }
+
+    .third .third-general .third-text button {
+        width: 135px;
+        height: 35px;
+    }
+
+    .third .third-general .third-cards .wire-body p {
+        width: 100%;
+    }
+
+    .fourth .fourth-head h1 {
+        font-size: 24px;
+    }
+
+    .fourth .fourth-head .portfol hr {
+        width: 70px;
+        height: 0px;
+        border: 2px solid #d3d3d3;
+        border-radius: 2px;
+    }
+
+    .fourth .fourth-head .fourth-images img:nth-child(1),
+    .fourth .fourth-head .fourth-images img:nth-child(3) {
+        width: 190px;
+        height: 290px;
+    }
+
+    .fourth .fourth-head .fourth-images img:nth-child(2) {
+        width: 190px;
+        height: 350px;
+    }
+
+    .fifth nav .nav-customer hr {
+        width: 70px;
+        margin-right: 8px;
+    }
+
+    .fifth nav .nav-customer h6 {
+        font-size: 12px;
+    }
+
+    .fifth nav .circles hr {
+        width: 100px;
+        margin-right: 8px;
+    }
+
+    .fifth .circles .circle,
+    .fifth .circles .circle1 {
+        width: 13px;
+        height: 13px;
+        border-radius: 12px;
+    }
+
+    .fifth .circles div:nth-last-child(1),
+    .fifth .circles div:nth-last-child(2) {
+        display: none;
+    }
+
+    .fifth h1 {
+        font-size: 20px;
+    }
+
+   
+
+    .fifth .fifth-name .fifth-cards .name-body h1 {
+        width: 100%;
+        font-size: 20px;
+
+    }
+
+    .fifth .fifth-name .fifth-cards .name-body i {
+        font-size: 16px;
+    }
+
+    .fifth .fifth-name .fifth-cards .name-body p {
+        width: 100%;
+    }
+
+    .six .six-head h1 {
+        font-size: 22px;
+    }
+
+    
+
+    .seven .seven-text .svn-txt-head hr {
+        width: 90px;
+    }
+
+    .seven .seven-text .svn-txt-head h6 {
+        font-size: 12px;
+    }
+
+    .seven .seven-text h1 {
+        font-size: 18px;
+    }
+
+    .seven .seven-text p {
+        font-size: 12px;
+    }
+
+    .seven .seven-text .svn-txt-inputs input:nth-child(1),
+    .seven .seven-text .svn-txt-inputs input:nth-child(2) {
+        width: 180px;
+    }
+
+    .seven .seven-text .svn-txt-inputs input:nth-child(3) {
+        width: 180px;
+    }
+
+    .seven .seven-text .svn-txt-inputs button {
+        width: 120px;
+        height: 35px;
+        font-size: 11px;
+    }
+
+    .seven .seven-general .seven-image img {
+        width: 200px;
+        height: 350px;
+    }
+
+    .eight .eight-general .logo img {
+        width: 150px;
+        height: 30px;
+    }
+
+    .eight .eight-general .logo p {
+        width: 100%;
+        font-size: 10px;
+        margin: 25px 0;
+    }
+
+    .eight .eight-general .socials {
+        width: 25px;
+        height: 25px;
+        border-radius: 25px;
+    }
+
+    .eight .eight-general .icons i {
+        font-size: 11px;
+    }
+
+    footer nav p {
+        font-size: 12px;
+    }
+}

@@ -1,0 +1,996 @@
+@import url('https://fonts.googleapis.com/css2?family=Dela+Gothic+One&family=Montserrat:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Rubik+Vinyl&family=Sevillana&family=Titillium+Web:ital,wght@0,200;0,300;0,400;0,600;0,700;0,900;1,200;1,300;1,400;1,600;1,700&display=swap');
+
+.container {
+    max-width: 1200px;
+}
+
+:root {
+    --mainFonts: 'Poppins', sans-serif;
+}
+
+span {
+    color: #FF3839;
+}
+
+header {
+    background-color: black;
+}
+
+header nav {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 30px 0;
+}
+
+header nav img {
+    width: 227px;
+    height: 53px;
+}
+
+header nav ul {
+    display: flex;
+
+}
+
+header nav ul li {
+    display: inline;
+    margin-left: 40px;
+}
+
+header nav ul li a {
+    font-family: var(--mainFonts);
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 24px;
+    letter-spacing: 0.03em;
+    color: #ffffff;
+    text-decoration: none;
+
+}
+
+header nav .icon {
+    display: none;
+    color: white;
+    font-size: 32px;
+}
+
+header nav button {
+    width: 128px;
+    height: 44px;
+    background: #FF3839;
+    border-radius: 5px;
+    color: white;
+    font-family: var(--mainFonts);
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 24px;
+    letter-spacing: 0.03em;
+    color: #FFFFFF;
+    border: none;
+}
+
+.first {
+    background-image: url('../img/bckgr-1.png');
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    position: relative;
+    isolation: isolate;
+}
+
+.first::after {
+    content: '';
+    position: absolute;
+    top: 0;
+    left: 0;
+    bottom: 0;
+    right: 0;
+    z-index: -1;
+    background: black;
+    opacity: .5;
+
+
+}
+
+.first-body h5 {
+    font-family: var(--mainFonts);
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 24px;
+    text-align: center;
+    letter-spacing: 0.03em;
+    color: #ffffff;
+    padding-top: 185px;
+    margin-bottom: 15px;
+}
+
+.first-body h1 {
+    width: 800px;
+    font-family: var(--mainFonts);
+    font-style: normal;
+    font-weight: 700;
+    font-size: 70px;
+    line-height: 128.5%;
+    letter-spacing: 0.03em;
+    color: #ffffff;
+    text-align: center;
+    margin: auto;
+
+}
+
+.first-body hr {
+    width: 563px;
+    height: 0px;
+    border: 2px solid #FF3839;
+    margin: auto;
+}
+
+.first-body p {
+    width: 786px;
+    font-family: var(--mainFonts);
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 24px;
+    letter-spacing: 0.03em;
+    color: #ffffff;
+    text-align: center;
+    margin: 20px auto 30px auto;
+}
+
+.first .first-btns {
+    padding-bottom: 190px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.first .first-btns button:nth-child(1) {
+    width: 180px;
+    height: 48px;
+    background: #FF3839;
+    border: none;
+    border-radius: 5px;
+    font-family: var(--mainFonts);
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 24px;
+    text-align: center;
+    letter-spacing: 0.03em;
+    color: #FFFFFF;
+    margin-right: 20px;
+}
+
+.first .first-btns button:nth-child(2) {
+    width: 180px;
+    height: 48px;
+    background: #FFFFFF;
+    border: none;
+    border-radius: 5px;
+    font-family: var(--mainFonts);
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 24px;
+    text-align: center;
+    letter-spacing: 0.03em;
+    color: #202020;
+}
+
+.second .scnd-general {
+    padding: 112px 0;
+    display: flex;
+    justify-content: space-between;
+}
+
+.second .images {
+    width: 398px;
+    height: 422px;
+    position: relative;
+
+}
+
+.second .scnd-general img:first-child {
+    width: 398px;
+    height: 422px;
+
+}
+
+.second .scnd-general img:last-child {
+    width: 301px;
+    height: 319px;
+    position: absolute;
+    top: 44%;
+    left: 60%;
+}
+
+.second .scnd-general .text {
+    margin-left: 219px;
+
+}
+
+.second .scnd-general .text-head {
+    display: flex;
+    align-items: center;
+
+}
+
+.second .scnd-general .text-head hr {
+    width: 143px;
+    height: 0px;
+    border: 2px solid #D8D8D8;
+    border-radius: 2px;
+}
+
+.second .scnd-general .text-head h6 {
+
+    font-family: var(--mainFonts);
+    font-style: normal;
+    font-weight: 700;
+    font-size: 16px;
+    line-height: 155%;
+    letter-spacing: 0.03em;
+    color: #696969;
+    margin-left: 12px;
+    margin-bottom: 19px;
+}
+
+
+
+.second .scnd-general .text h1 {
+    width: 534px;
+    font-family: var(--mainFonts);
+    font-style: normal;
+    font-weight: 700;
+    font-size: 48px;
+    line-height: 125.5%;
+    letter-spacing: 0.03em;
+    margin-bottom: 31px;
+
+}
+
+
+.second .scnd-general .text p {
+    width: 534px;
+    font-family: var(--mainFonts);
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 155%;
+    letter-spacing: 0.03em;
+    color: #696969;
+}
+
+.second .scnd-general .text button {
+    width: 181px;
+    height: 48px;
+    background: #FF3839;
+    border-radius: 5px;
+    border: none;
+    margin-top: 25px;
+    font-family: var(--mainFonts);
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 24px;
+    letter-spacing: 0.03em;
+    color: #ffffff;
+}
+
+.third {
+    background: #202020;
+}
+
+.third .third-general {
+    display: flex;
+    justify-content: space-between;
+    padding-top: 120px;
+}
+
+.third .third-general .third-text .trd-text-head {
+    display: flex;
+    align-items: center;
+    margin-bottom: 19px;
+}
+
+.third .third-general .third-text hr {
+    width: 143px;
+    height: 0px;
+    border: 2px solid #D8D8D8;
+    margin-right: 12px;
+}
+
+.third .third-general .third-text h4 {
+    font-family: var(--mainFonts);
+    font-style: normal;
+    font-weight: 700;
+    font-size: 16px;
+    line-height: 155%;
+    letter-spacing: 0.03em;
+    color: #F8F8F8;
+}
+
+.third .third-general .third-text h1 {
+    width: 443px;
+    font-family: var(--mainFonts);
+    font-style: normal;
+    font-weight: 700;
+    font-size: 48px;
+    line-height: 125.5%;
+    letter-spacing: 0.03em;
+    color: #F8F8F8;
+}
+
+.third .third-general .third-text p {
+    width: 534px;
+    font-family: var(--mainFonts);
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 155%;
+    text-align: justify;
+    letter-spacing: 0.03em;
+    color: #FFFFFF;
+    margin-bottom: 40px;
+}
+
+.third .third-general .third-text button {
+    width: 181px;
+    height: 48px;
+    background: #FF3839;
+    font-family: var(--mainFonts);
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 24px;
+    letter-spacing: 0.03em;
+    color: white;
+    border-radius: 5px;
+    border: none;
+}
+
+.third .third-general .third-wire {
+    display: flex;
+    text-align: center;
+    margin-left: 70px;
+    margin-bottom: 100px;
+}
+
+.third .third-general .third-cards {
+    width: 263px;
+    background: #FFFFFF;
+    border-radius: 5px;
+    position: relative;
+    margin: 0 0 60px 20px;
+
+}
+
+.third .third-general .third-cards .wire-head {
+
+    position: absolute;
+    top: -41px;
+    left: 50%;
+    transform: translateX(-50%);
+}
+
+.third .third-general .third-cards .wire-bg {
+    width: 82px;
+    height: 82px;
+    border-radius: 41px;
+    background-color: #FF3839;
+    border: 3px solid #ffffff;
+    position: relative;
+}
+
+
+.third .third-general .third-cards .wire-head img {
+    position: absolute;
+    bottom: 50%;
+    left: 50%;
+    transform: translate(-50%, 50%);
+}
+
+.third .third-general .third-cards .wire-body h1 {
+    font-family: var(--mainFonts);
+    font-style: normal;
+    font-weight: 700;
+    font-size: 26px;
+    line-height: 24px;
+    letter-spacing: 0.03em;
+    padding-top: 54px;
+
+}
+
+.third .third-general .third-cards .wire-body p {
+    width: 233px;
+    font-family: var(--mainFonts);
+    font-style: normal;
+    font-weight: 400;
+    font-size: 11px;
+    line-height: 155%;
+    letter-spacing: 0.03em;
+    color: #696969;
+    margin-top: 13px;
+    padding-bottom: 20px;
+}
+
+.fourth .fourth-head .portfol {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding-top: 112px;
+    margin-bottom: 24px;
+
+}
+
+.fourth .fourth-head .portfol hr {
+    width: 163px;
+    height: 0px;
+    border: 2px solid #d3d3d3;
+    border-radius: 2px;
+}
+
+.fourth .fourth-head .portfol h6 {
+    font-family: var(--mainFonts);
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 155%;
+    letter-spacing: 0.03em;
+    color: #696969;
+    margin: 0 14px;
+}
+
+.fourth .fourth-head h1 {
+    width: 460px;
+    font-family: var(--mainFonts);
+    font-style: normal;
+    font-weight: 700;
+    font-size: 48px;
+    line-height: 125.5%;
+    text-align: center;
+    letter-spacing: 0.03em;
+    margin: auto;
+}
+
+.fourth .fourth-head ul {
+    display: flex;
+    margin-top: 47px;
+    justify-content: center;
+    cursor: pointer;
+    margin-bottom: 50px;
+}
+
+.fourth .fourth-head ul li {
+    display: inline;
+    padding: 10px 25px;
+    height: 44px;
+    background: #F2F2F2;
+    border-radius: 5px;
+    margin-right: 8px;
+}
+
+.fourth .fourth-head ul li a {
+    font-family: var(--mainFonts);
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 24px;
+    letter-spacing: 0.03em;
+    text-decoration: none;
+    color: #000000;
+}
+
+.fourth .fourth-head ul .active {
+    color: white;
+    background: #FF3839;
+    border-radius: 5px;
+
+}
+
+.fourth .fourth-head ul .act {
+    color: white;
+}
+
+.fourth .fourth-head ul li:hover {
+    background: #FF3839;
+    border-radius: 5px;
+
+}
+
+.fourth .fourth-head ul a:hover {
+    color: white;
+}
+
+.fourth .fourth-head i {
+    display: none;
+    font-size: 36px;
+    color: #000000;
+}
+
+.fourth .fourth-head .fourth-images {
+    margin-bottom: 110px;
+}
+
+.fourth .fourth-head .fourth-images img {
+    margin-right: 12px;
+
+}
+
+.fourth .fourth-head .fourth-images img:nth-child(1),
+.fourth .fourth-head .fourth-images img:nth-child(3) {
+    margin-bottom: 65px;
+}
+
+.fifth {
+    background: #202020;
+    ;
+}
+
+.fifth nav {
+    display: flex;
+    justify-content: space-between;
+    padding-top: 112px;
+    margin-bottom: 19px;
+}
+
+.fifth nav .nav-customer {
+    display: flex;
+    align-items: center;
+}
+
+.fifth nav .nav-customer hr {
+    width: 143px;
+    height: 0px;
+    border: 2px solid #d8d8d8;
+    border-radius: 2px;
+    margin-right: 12px;
+}
+
+.fifth nav .nav-customer h6 {
+    font-family: var(--mainFonts);
+    font-style: normal;
+    font-weight: 700;
+    font-size: 16px;
+    line-height: 155%;
+    letter-spacing: 0.03em;
+    color: #F7F7F7;
+}
+
+.fifth .circles {
+    display: flex;
+    align-items: center;
+}
+
+.fifth nav .circles hr {
+    width: 234px;
+    height: 0px;
+    border: 2px solid #D8D8D8;
+    border-radius: 2px;
+    margin-right: 14px;
+}
+
+.fifth .circles .circle {
+    display: inline;
+    width: 15px;
+    height: 15px;
+    border-radius: 14px;
+    background-color: white;
+    margin-right: 7px;
+}
+
+.fifth .circles .circle1 {
+    display: inline;
+    width: 15px;
+    height: 15px;
+    border: 2px solid red;
+    border-radius: 16px;
+    margin-right: 7px;
+}
+
+.fifth h1 {
+    width: 528px;
+    font-family: var(--mainFonts);
+    font-style: normal;
+    font-weight: 700;
+    font-size: 48px;
+    line-height: 125.5%;
+    letter-spacing: 0.03em;
+    color: #FFFFFF;
+}
+
+.fifth .fifth-name {
+    display: flex;
+    text-align: center;
+    margin-top: 170px;
+    padding-bottom: 110px;
+
+}
+
+.fifth .fifth-name .fifth-cards {
+    width: 370px;
+    background: #FFFFFF;
+    border-radius: 5px;
+    position: relative;
+    margin-right: 30px;
+
+
+}
+
+.fifth .fifth-name .fifth-cards .name-head {
+
+    position: absolute;
+    top: -49px;
+    left: 50%;
+    transform: translateX(-50%);
+}
+
+.fifth .fifth-name .fifth-cards .name-bg {
+    width: 99px;
+    height: 99px;
+    border-radius: 49px;
+    background-color: #FF3839;
+    border: 3px solid #ffffff;
+    position: relative;
+}
+
+.fifth .fifth-name .fifth-cards h3 {
+    font-family: var(--mainFonts);
+    font-style: normal;
+    font-weight: 400;
+    font-size: 64px;
+    line-height: 155%;
+    letter-spacing: 0.03em;
+    color: #FFFFFF;
+    position: absolute;
+    bottom: 25%;
+    left: 50%;
+    transform: translate(-50%, 50%);
+}
+
+.fifth .fifth-name .fifth-cards .name-body h1 {
+    width: 370px;
+    font-family: var(--mainFonts);
+    font-style: normal;
+    font-weight: 700;
+    font-size: 26px;
+    line-height: 24px;
+    letter-spacing: 0.03em;
+    padding-top: 69px;
+    color: #000000;
+    margin-bottom: 14px;
+}
+
+.fifth .fifth-name .fifth-cards .name-body i {
+    font-size: 20px;
+    color: #FF3839;
+    margin-bottom: 15px;
+}
+
+.fifth .fifth-name .fifth-cards .name-body p {
+    width: 334px;
+    font-family: var(--mainFonts);
+    font-style: normal;
+    font-weight: 400;
+    font-size: 11px;
+    line-height: 155%;
+    text-align: center;
+    letter-spacing: 0.03em;
+    color: #696969;
+    margin: auto;
+    padding-bottom: 30px;
+}
+
+.six .six-head .head-faq {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding-top: 110px;
+    margin-bottom: 24px;
+}
+
+.six .six-head .head-faq hr {
+    width: 163px;
+    height: 0px;
+    left: 288px;
+    top: 13px;
+    border: 2px solid #D8D8D8;
+}
+
+.six .six-head .head-faq h5 {
+    font-family: var(--mainFonts);
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 155%;
+    text-align: center;
+    letter-spacing: 0.03em;
+    color: #696969;
+    margin: 0 14px;
+}
+
+.six .six-head h1 {
+    width: 465px;
+    font-family: var(--mainFonts);
+    font-style: normal;
+    font-weight: 700;
+    font-size: 48px;
+    line-height: 125.5%;
+    text-align: center;
+    letter-spacing: 0.03em;
+    color: #202020;
+    margin: auto;
+}
+
+.six .accordion {
+
+    width: 970px;
+    margin: 70px auto;
+}
+
+.six .accordion .accordion-header button {
+    background-color: #000000;
+    color: white;
+}
+
+.seven {
+    background-color: #f1f1f1;
+}
+
+.seven .seven-general {
+    display: flex;
+    justify-content: space-between;
+}
+
+.seven .seven-text .svn-txt-head {
+    display: flex;
+    align-items: center;
+    padding-top: 90px;
+    margin-bottom: 19px;
+}
+
+.seven .seven-text .svn-txt-head hr {
+    width: 143px;
+    height: 0px;
+    border: 2px solid #c0bfbf;
+    border-radius: 2px;
+}
+
+.seven .seven-text .svn-txt-head h6 {
+    font-family: var(--mainFonts);
+    font-style: normal;
+    font-weight: 700;
+    font-size: 16px;
+    line-height: 155%;
+    letter-spacing: 0.03em;
+    color: #FF3839;
+    text-align: center;
+    margin-left: 12px;
+
+}
+
+.seven .seven-text h1 {
+
+    width: 560px;
+    font-family: var(--mainFonts);
+    font-style: normal;
+    font-weight: 700;
+    font-size: 48px;
+    line-height: 125.5%;
+    letter-spacing: 0.03em;
+    margin-bottom: 31px;
+}
+
+.seven .seven-text p {
+    width: 531px;
+    font-family: var(--mainFonts);
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 155%;
+    letter-spacing: 0.03em;
+    color: #696969;
+    margin-bottom: 23px;
+}
+
+.seven .seven-text .svn-txt-inputs {
+    padding-bottom: 60px;
+}
+
+.seven .seven-text .svn-txt-inputs input:nth-child(1),
+.seven .seven-text .svn-txt-inputs input:nth-child(2) {
+    display: block;
+    width: 533px;
+    height: 60px;
+    background: #FFFFFF;
+    border: 1px solid #CACACA;
+    border-radius: 5px;
+    margin-bottom: 23px;
+    padding-left: 15px;
+    outline: none;
+}
+
+.seven .seven-text .svn-txt-inputs input:nth-child(3) {
+    display: block;
+    width: 533px;
+    height: 149px;
+    background: #FFFFFF;
+    border: 1px solid #CACACA;
+    border-radius: 5px;
+    margin-bottom: 30px;
+    padding-left: 15px;
+    outline: none;
+}
+
+.seven .seven-text .svn-txt-inputs input::placeholder {
+
+    font-family: var(--mainFonts);
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 155%;
+    letter-spacing: 0.03em;
+    color: #000000;
+
+}
+
+.seven .seven-text .svn-txt-inputs button {
+    width: 181px;
+    height: 48px;
+    background: #FF3839;
+    border-radius: 5px;
+    border: none;
+    color: #F8F8F8;
+    font-family: var(--mainFonts);
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 24px;
+    letter-spacing: 0.03em;
+}
+
+.seven .seven-general .seven-image {
+    padding-top: 25px;
+}
+
+.eight {
+    background-color: #202020;
+}
+
+.eight .eight-general {
+    display: flex;
+    justify-content: space-between;
+    padding-top: 80px;
+}
+
+.eight .eight-general .dropdown {
+    display: none;
+}
+
+.eight .eight-general .logo p {
+    width: 345px;
+    font-family: var(--mainFonts);
+    font-style: normal;
+    font-weight: 400;
+    font-size: 13px;
+    line-height: 155%;
+    letter-spacing: 0.03em;
+    text-align: justify;
+    color: #F8F8F8;
+    margin: 35px 0;
+}
+
+.eight .eight-general .icons {
+    display: flex;
+    padding-bottom: 100px;
+}
+
+.eight .eight-general .socials {
+    width: 36px;
+    height: 36px;
+    border-radius: 36px;
+    background-color: red;
+    position: relative;
+    margin-left: 19px;
+
+}
+
+.eight .eight-general .icons i,
+.eight .eight-general h1 {
+    font-size: 15px;
+    color: white;
+    font-weight: 700;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+
+.eight .eight-general .services {
+    margin-left: 50px;
+
+}
+
+.eight .eight-general .resources {
+    margin-left: 45px;
+}
+
+.eight .eight-general h4 {
+    font-family: var(--mainFonts);
+    font-style: normal;
+    font-weight: 700;
+    font-size: 20.2817px;
+    line-height: 30px;
+    color: #FFFFFF;
+    margin-left: 30px;
+    margin-bottom: 35px;
+}
+
+.eight .eight-general .services li {
+
+    padding: 0;
+}
+
+.eight .eight-general li a {
+    text-decoration: none;
+    font-family: var(--mainFonts);
+    font-style: normal;
+    font-weight: 300;
+    font-size: 18.0282px;
+    line-height: 41px;
+    color: #FFFFFF;
+}
+
+.eight .eight-general .contact li i {
+    color: red;
+    margin-right: 17px;
+
+}
+
+.eight .eight-general .contact {
+    margin-left: 45px;
+}
+
+footer {
+    background-color: #202020;
+    border-top: 2px solid #b8b6b6;
+}
+
+footer nav {
+    padding: 45px 0;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+footer nav p {
+    font-family: var(--mainFonts);
+    font-style: normal;
+    font-weight: 300;
+    font-size: 16px;
+    line-height: 24px;
+    color: #FFFFFF;
+}
+
+footer nav .dropdown {
+    display: none;
+}
+
+footer nav ul li {
+    display: inline;
+    margin-left: 20px;
+}
+
+footer nav ul li a {
+    font-family: var(--mainFonts);
+    font-style: normal;
+    font-weight: 300;
+    font-size: 16px;
+    line-height: 36px;
+    color: #FFFFFF;
+}
