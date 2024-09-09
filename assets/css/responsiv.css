@@ -43,7 +43,7 @@
         order: 3;
     }
 
-    header nav ul {
+    header nav .nav_bar {
         display: none;
         flex-wrap: wrap;
     }
@@ -62,7 +62,9 @@
         max-width: 100%;
         font-size: 50px;
     }
-
+    .mystyle{
+        padding-top: 280px;
+    }
     .first-body p {
         max-width: 100%;
         font-size: 14px;
@@ -138,7 +140,25 @@
     .container {
         max-width: 720px;
     }
-
+    header nav .navAnimation {
+        width: 200px;
+        height: 280px;
+        position: absolute;
+        box-shadow: 4px 2px #e40a0a;
+        border: 1px solid rgb(5, 5, 2);
+    }
+    header nav .navAnimation ul li{
+        margin-bottom: 10px;
+        padding-top: 10px;  
+    }
+    header nav .navAnimation ul li a{
+        font-weight: 400;
+        font-size: 15px;
+        line-height: 15px;
+    }
+    .mystyle{
+        padding-top: 60px;
+    }
     header nav button {
 
         width: 80px;
@@ -289,6 +309,23 @@
 }
 
 @media (max-width: 576px) {
+    header nav .navAnimation {
+        width: 150px;
+        height: 240px;
+        box-shadow: 2px 1px #e40a0a;
+    }
+    header nav .navAnimation ul li{
+        margin-bottom: 7px;
+        padding-top: 7px;  
+    }
+    header nav .navAnimation ul li a{
+        font-weight: 300;
+        font-size: 12px;
+        line-height: 12px;
+    }
+    .mystyle{
+        padding-top: 60px;
+    }
     .second .scnd-general .text h1 {
         font-size: 24px;
         line-height: 70%;

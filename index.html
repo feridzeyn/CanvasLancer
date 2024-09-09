@@ -14,13 +14,12 @@
 </head>
 
 <body>
-
     <header>
         <div class="container">
             <nav>
-                <img src="./assets/img/logo1.png" alt="firstLogo">
+                <img id="logo" src="./assets/img/logo1.png" alt="firstLogo">
 
-                <ul>
+                <ul class="nav_bar">
                     <li>
                         <a href="#">Home</a>
                     </li>
@@ -49,7 +48,37 @@
                     </li>
                 </ul>
                 <div class="icon">
-                    <i class="fa-solid fa-bars"></i>
+                    <i class="fa-solid fa-bars" id="bar_icon"></i>
+                </div>
+                <div class="navAnimation">
+                    <ul>
+                        <li>
+                            <a href="#">Home</a>
+                        </li>
+    
+                        <li>
+                            <a href="#">About Us</a>
+                        </li>
+    
+    
+                        <li>
+                            <a href="#">Services</a>
+                        </li>
+    
+    
+                        <li>
+                            <a href="#">Portfolio</a>
+                        </li>
+    
+    
+                        <li>
+                            <a href="#">Testimonials</a>
+                        </li>
+    
+                        <li>
+                            <a href="#">Faqs</a>
+                        </li>
+                    </ul>
                 </div>
                 <button>Contact Us</button>
             </nav>
@@ -59,7 +88,7 @@
     <section class="first">
         <div class="container">
             <div class="first-body">
-                <h5>Welcome To <span>Canavas Lancer</span> </h5>
+                <h5 id="welcome">Welcome To <span>Canavas Lancer</span> </h5>
                 <h1>
                     Designing the Future
                     with Canvas Lancer
@@ -610,6 +639,7 @@
 
     </footer>
     <script src="./assets/js/bootstrap.bundle.min.js"></script>
+    <script src="assets/js/javascript.js"></script>
 </body>
 
 </html>
