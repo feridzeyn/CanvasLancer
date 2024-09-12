@@ -62,9 +62,6 @@
         max-width: 100%;
         font-size: 50px;
     }
-    .mystyle{
-        padding-top: 280px;
-    }
     .first-body p {
         max-width: 100%;
         font-size: 14px;
@@ -183,9 +180,11 @@
     }
 
     .fourth .fourth-head nav {
+       overflow-x: scroll;
+    }
+    .fourth .fourth-head nav::-webkit-scrollbar{
         display: none;
     }
-
     .fourth .fourth-head i {
         display: block;
         margin: 20px 0;
@@ -322,9 +321,6 @@
         font-weight: 300;
         font-size: 12px;
         line-height: 12px;
-    }
-    .mystyle{
-        padding-top: 60px;
     }
     .second .scnd-general .text h1 {
         font-size: 24px;
