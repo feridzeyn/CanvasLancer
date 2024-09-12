@@ -138,11 +138,8 @@
         max-width: 720px;
     }
     header nav .navAnimation {
-        width: 200px;
-        height: 280px;
-        position: absolute;
-        box-shadow: 4px 2px #e40a0a;
-        border: 1px solid rgb(5, 5, 2);
+        width: 250px;
+        box-shadow: 3px 1.5px #e40a0a;
     }
     header nav .navAnimation ul li{
         margin-bottom: 10px;
@@ -153,8 +150,8 @@
         font-size: 15px;
         line-height: 15px;
     }
-    .mystyle{
-        padding-top: 60px;
+    header nav .navAnimation ul i {
+        font-size: 30px;
     }
     header nav button {
 
@@ -168,17 +165,49 @@
         width: 150px;
         height: 40px;
     }
-
+    .first-body h5 {
+        font-size: 13px;
+        line-height: 0px;
+        padding-top: 80px;
+        margin-bottom: 10px;
+    }
+    .first-body h1 {
+        max-width: 100%;
+        font-size: 30px;
+    }
     .first-body hr {
         width: 300px;
     }
-
+    .first-body p {
+        width: 100%;
+        font-weight: 400;
+        font-size: 13px;
+        line-height: 16px;
+        margin: 15px auto 20px auto;
+    }
+    .first .first-btns {
+        padding-bottom: 80px;
+    }
+    .first .first-btns button:nth-child(1), .first .first-btns button:nth-child(2) {
+        width: 110px;
+        height: 40px;
+        border-radius: 2px;
+        font-size: 13px;
+        line-height: 0;
+        margin-right: 15px;
+    }
+    .second .scnd-general {
+        padding: 80px 0;
+    }
     .second .scnd-general img:last-child {
 
         top: 40%;
         left: 30%;
     }
-
+    .fourth .fourth-head .portfol{
+        padding-top: 50px;
+        margin-bottom: 24px;
+    }
     .fourth .fourth-head nav {
        overflow-x: scroll;
     }
@@ -190,7 +219,9 @@
         margin: 20px 0;
         text-align: center;
     }
-
+    .fourth .fourth-head .fourth-images {
+        margin-bottom: 90px;
+    }
     .fifth nav {
         flex-direction: column;
         justify-content: center;
@@ -213,7 +244,10 @@
         width: 100%;
         font-size: 40px;
     }
-
+    .six .six-head .head-faq {
+        padding-top: 90px;
+        margin-bottom: 20px;
+    }
    
 
     .seven .seven-text .svn-txt-head {
@@ -309,9 +343,7 @@
 
 @media (max-width: 576px) {
     header nav .navAnimation {
-        width: 150px;
-        height: 240px;
-        box-shadow: 2px 1px #e40a0a;
+        width: 170px;
     }
     header nav .navAnimation ul li{
         margin-bottom: 7px;
@@ -321,6 +353,42 @@
         font-weight: 300;
         font-size: 12px;
         line-height: 12px;
+    }
+    header nav .navAnimation ul i {
+        font-size: 25px;
+    }
+    .first-body h5 {
+        font-size: 11px;
+        padding-top: 50px;
+        margin-bottom: 8px;
+    }
+    .first-body h1 {
+        font-size: 22px;
+    }
+    .first-body hr {
+        width: 100%;
+    }
+    .first-body p {
+        font-weight: 300;
+        font-size: 11px;
+        line-height: 13px;
+        margin: 10px auto 15px auto;
+    }
+    .first .first-btns {
+        padding-bottom: 50px;
+    }
+    .first .first-btns button:nth-child(1), .first .first-btns button:nth-child(2) {
+        width: 90px;
+        height: 30px;
+        border-radius: 2px;
+        margin-right: 15px;
+    }
+    .first .first-btns button:nth-child(1) a, .first .first-btns button:nth-child(2) a{
+        font-size: 11px;
+        line-height: 0;
+    }
+    .second .scnd-general {
+        padding: 40px 0;
     }
     .second .scnd-general .text h1 {
         font-size: 24px;
@@ -335,18 +403,22 @@
     .third .third-general .third-text p {
         width: 100%;
         font-size: 14px;
-        margin-bottom: 30px;
+        margin-bottom: 20px;
     }
 
     .third .third-general .third-text h1 {
         width: 100%;
         font-size: 30px;
     }
-
+    .fourth .fourth-head .portfol{
+        padding-top: 0px;
+        margin-bottom: 24px;
+    }
     .fourth .fourth-head .portfol hr {
         width: 140px;
         height: 0px;
         border: 2px solid #d3d3d3;
+     
         border-radius: 2px;
     }
 
@@ -355,11 +427,18 @@
         font-size: 36px;
 
     }
-
+    .fourth .fourth-head .fourth-images {
+        margin-bottom: 0px;
+        padding: 0;
+    }
     .six .six-head h1 {
         font-size: 32px;
     }
-
+    .six .six-head .head-faq {
+        padding-top: 50px;
+        margin-bottom: 15px;
+    }
+   
    
     
 
@@ -402,7 +481,7 @@
     }
 
     .second .scnd-general .text {
-        margin-top: 50px;
+        margin-top: 35px;
 
     }
     .third .third-general .third-cards {
@@ -455,14 +534,13 @@
 
 }
 
-@media only screen and (max-width:375px) {
+/* @media only screen and (max-width:375px) {
     .container {
-        max-width: 335px;
+        max-width: 330px;
 
     }
 
     header nav button {
-
         width: 40px;
         height: 15px;
         font-size: 7px;
@@ -470,21 +548,15 @@
     }
 
     header nav img {
-        width: 90px;
-        height: 40px;
+        width: 80px;
     }
 
     header nav .icon {
         font-size: 18px;
     }
 
-    .first-body hr {
-        width: 100px;
-    }
-
     .first-body h1 {
-        max-width: 100%;
-        font-size: 20px;
+        font-size: 15px;
     }
 
     .first .first-btns button:nth-child(1) {
@@ -687,4 +759,4 @@
     footer nav p {
         font-size: 12px;
     }
-}
+} */

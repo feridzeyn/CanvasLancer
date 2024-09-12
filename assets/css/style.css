@@ -209,30 +209,28 @@ header nav button {
     background: #FF3839;
     border: none;
     border-radius: 5px;
-    font-family: var(--mainFonts);
-    font-style: normal;
-    font-weight: 400;
-    font-size: 16px;
-    line-height: 24px;
-    text-align: center;
-    letter-spacing: 0.03em;
-    color: #FFFFFF;
     margin-right: 20px;
 }
-
 .first .first-btns button:nth-child(2) {
     width: 180px;
     height: 48px;
     background: #FFFFFF;
     border: none;
-    border-radius: 5px;
+    border-radius: 5px; 
+}
+.first .first-btns button:nth-child(1) a, .first .first-btns button:nth-child(2) a{
     font-family: var(--mainFonts);
     font-style: normal;
     font-weight: 400;
     font-size: 16px;
     line-height: 24px;
     text-align: center;
+    text-decoration: none;
     letter-spacing: 0.03em;
+    color: #FFFFFF;
+    white-space: nowrap;
+}
+.first .first-btns button:nth-child(2) a{
     color: #202020;
 }
 
