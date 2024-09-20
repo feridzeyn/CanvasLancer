@@ -237,9 +237,37 @@
     }
 
     .fifth .fifth-name {
-        margin-top: 30px;
+        margin-top: 20px;
     }
 
+    .fifth .fifth-name .fifth-cards .name-bg {
+        width: 60px;
+        height: 60px;
+        border-radius: 50%;
+        border: 2px solid #ffffff;
+    }
+    .fifth .fifth-name .fifth-cards h3 {
+        font-size: 25px;
+        font-weight: 600;
+        line-height: 100%;
+        color: #FFFFFF;
+    }
+    .fifth .fifth-name .fifth-cards .name-body h1 {
+        font-weight: 600;
+        font-size: 20px;
+        line-height: 22px;
+        padding-top: 50px;
+        margin-bottom: 12px;
+    }
+    .fifth .fifth-name .fifth-cards .name-body i {
+        font-size: 14px;
+        margin-bottom: 14px;
+    }
+    .fifth .fifth-name .fifth-cards .name-body p {
+        font-size: 12px;
+        line-height: 150%;
+        padding-bottom: 20px;
+    }
     .six .six-head h1 {
         width: 100%;
         font-size: 40px;
@@ -439,18 +467,17 @@
         margin-bottom: 15px;
     }
    
-   
-    
-
     .seven .seven-general .seven-image img {
         width: 450px;
         height: 650px;
     }
 
-
 }
 
-@media (max-width: 450px) {
+@media (max-width: 480px) {
+    .container{
+        max-width: 400px;
+    }
     .first .first-btns button:nth-child(1) {
         width: 160px;
       
@@ -506,8 +533,34 @@
         width: 350px;
         height: 460px;
     }
-    .fifth .fifth-name .fifth-cards {
-        width: 100%;
+    .fifth .fifth-name .fifth-cards .name-bg {
+        width: 40px;
+        height: 40px;
+        border-radius: 50%;
+        background-color: #FF3839;
+        border: 1px solid #ffffff;
+    }
+    .fifth .fifth-name .fifth-cards h3 {
+        font-size: 20px;
+        line-height: 100%;
+        color: #FFFFFF;
+    }
+    .fifth .fifth-name .fifth-cards .name-body h1 {
+        font-weight: 400;
+        font-size: 15px;
+        line-height: 18px;
+        padding-top: 40px;
+        margin-bottom: 8px;
+    }
+    .fifth .fifth-name .fifth-cards .name-body i {
+        max-width: 100%;
+        font-size: 8px;
+        margin-bottom: 10px;
+    }
+    .fifth .fifth-name .fifth-cards .name-body p {
+        font-size: 10px;
+        line-height: 140%;
+        padding-bottom: 10px;
     }
     .six .six-head .head-faq hr {
         width: 125px;
