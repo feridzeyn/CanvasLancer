@@ -52,9 +52,7 @@ header nav .nav_bar li a {
     letter-spacing: 0.03em;
     color: #ffffff;
     text-decoration: none;
-
 }
-
 header nav .icon {
     display: none;
     color: white;
@@ -125,7 +123,12 @@ header nav button {
     color: #FFFFFF;
     border: none;
 }
-
+header nav .phone{
+    display: none;
+    color: white;
+    font-size: 30px;
+    transition: all 1s liner;
+}
 .first {
     background-image: url('../img/bckgr-1.png');
     background-repeat: no-repeat;
@@ -244,13 +247,11 @@ header nav button {
     width: 398px;
     height: 422px;
     position: relative;
-
 }
 
 .second .scnd-general img:first-child {
     width: 398px;
     height: 422px;
-
 }
 
 .second .scnd-general img:last-child {
@@ -260,27 +261,21 @@ header nav button {
     top: 44%;
     left: 60%;
 }
-
 .second .scnd-general .text {
     margin-left: 219px;
-
 }
-
 .second .scnd-general .text-head {
     display: flex;
     align-items: center;
 
 }
-
 .second .scnd-general .text-head hr {
     width: 143px;
     height: 0px;
     border: 2px solid #D8D8D8;
     border-radius: 2px;
 }
-
 .second .scnd-general .text-head h6 {
-
     font-family: var(--mainFonts);
     font-style: normal;
     font-weight: 700;
@@ -291,9 +286,6 @@ header nav button {
     margin-left: 12px;
     margin-bottom: 19px;
 }
-
-
-
 .second .scnd-general .text h1 {
     width: 534px;
     font-family: var(--mainFonts);
@@ -303,10 +295,7 @@ header nav button {
     line-height: 125.5%;
     letter-spacing: 0.03em;
     margin-bottom: 31px;
-
 }
-
-
 .second .scnd-general .text p {
     width: 534px;
     font-family: var(--mainFonts);
@@ -419,11 +408,8 @@ header nav button {
     border-radius: 5px;
     position: relative;
     margin: 0 0 60px 20px;
-
 }
-
 .third .third-general .third-cards .wire-head {
-
     position: absolute;
     top: -41px;
     left: 50%;
@@ -438,7 +424,6 @@ header nav button {
     border: 3px solid #ffffff;
     position: relative;
 }
-
 
 .third .third-general .third-cards .wire-head img {
     position: absolute;
@@ -570,10 +555,8 @@ header nav button {
 .fourth .fourth-head .fourth-images {
     margin-bottom: 110px;
 }
-
 .fourth .fourth-head .fourth-images img {
     margin-right: 12px;
-
 }
 
 .fourth .fourth-head .fourth-images img:nth-child(1),
@@ -648,7 +631,6 @@ header nav button {
 }
 
 .fifth h1 {
-    width: 528px;
     font-family: var(--mainFonts);
     font-style: normal;
     font-weight: 700;
@@ -656,6 +638,7 @@ header nav button {
     line-height: 125.5%;
     letter-spacing: 0.03em;
     color: #FFFFFF;
+  margin-top: 60px;
 }
 
 .fifth .fifth-name {
@@ -665,7 +648,9 @@ header nav button {
     padding-bottom: 110px;
 
 }
-
+.swiper-pagination-bullet{
+    background-color: white;
+}
 .fifth .fifth-name .fifth-cards {
     width: 370px;
     background: #FFFFFF;
